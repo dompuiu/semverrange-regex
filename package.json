@@ -1,0 +1,21 @@
+{
+  "name": "semverrange-regex",
+  "version": "1.0.0",
+  "description": "Regular expression for matching semver ranges",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dompuiu/semverrange-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dompuiu/semverrange-regex/issues"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/dompuiu/semverrange-regex#readme",
+  "license": "MIT"
+}
