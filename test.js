@@ -32,7 +32,8 @@ var validRanges = [
   '~2.4',
   '~>1',
   '~>3.2.1',
-  '~v0.5.4-pre'
+  '~v0.5.4-pre',
+  '1.2.3-alpha.10.beta.0+build.unicorn.rainbow'
 ];
 
 var invalidRanges = [
