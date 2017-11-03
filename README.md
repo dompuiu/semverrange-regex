@@ -1,4 +1,6 @@
 # semverrange-regex [![Build Status](https://travis-ci.org/sindresorhus/semver-regex.svg?branch=master)](https://travis-ci.org/sindresorhus/semver-regex)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dompuiu/semverrange-regex.svg)](https://greenkeeper.io/)
 Regular expression for matching semver ranges.
 
 ## Install
