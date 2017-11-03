@@ -1,4 +1,11 @@
 sudo: false
 language: node_js
+before_install:
+  - npm install -g greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
 node_js:
-  - "node"
+  - node
+env:
+  global:
+    secure: n3Y1yqWYGWtUMzcBGMjoZy24QKHswYPpZSlhXs296f9v/ubR1kNL9A9yIZgKghnstU9hj4aDl8wpvHEmUpMcqsYY169UuKHdRYDXTRK7JV+eGCqdZ2S23w0YU/YVeAC0O1Dh5fw6WqqJ69Rc93gSePg1KhsqWi5XOKP+smzFPhMww7YFTzayIuJpiXYz83Da/db31iXcucrjqVpKhqPAE/IIaHi8NfbqyOXrF5JyJSSE/+Nu6ptLnjw817CRvSnXD8NMo31r7cPlRKtdV080uKnZv82lLdsbTFkWXAR6021nY1Y6OcVfVQ37wJNc8NoAuGFrzO8CbPKfg+TTVZrmqOtqzfd2TUGItaMkEk/OEnt9BV6lpkNce+KiActGn3Uu8+oXVIzC045UPhYk9nSNQTVoSyDenfsdipJZtVgIrbGrO0yOUQcFulDLSYvRWrAGo20flIBosnThLNoaRJhbtqPVZUkvIFZ25A0PVXtFrlK0EOgmb1Y4C9kOIW2fBHq71OE62bdtPIrv3qzgSbBGWBCLxnDfR5sI//TDC5V0rgSa/dvHmk802VlEunsSwVk21Dk8f1XSxG3jt4KefNrNTjMOQ1kqYfnN/MZQRmpw0n1pc86LmZKRue3tJrm+JxsO5Ac0fq6FLb20hH1mZ+dXmACXdj4Kt91j4AnndNbb8rI=
