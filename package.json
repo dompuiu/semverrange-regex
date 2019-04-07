@@ -14,7 +14,7 @@
     "url": "https://github.com/dompuiu/semverrange-regex/issues"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": ">=6.1.1"
   },
   "homepage": "https://github.com/dompuiu/semverrange-regex#readme",
   "license": "MIT"
